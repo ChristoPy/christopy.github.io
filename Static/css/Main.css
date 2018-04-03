@@ -42,6 +42,7 @@
 }
 
 .text-info {
+
 	color: #00bcd4;
 }
 
@@ -78,4 +79,16 @@ footer {
 
 		font-size: 40px;
 	}
+}
+
+.copyright ul {
+
+	display: block;
+}
+
+
+
+.copyright ul li a:hover, .copyright ul li a:focus {
+
+	color: #00bcd4;
 }
