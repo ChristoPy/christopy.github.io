@@ -3,34 +3,9 @@
 	z-index: 10;
 }
 
-.MainBG {
-
-	background-color: #212121!important;
-}
-
 .WhiteText {
 
 	color: #fff;
-}
-
-.navbar, .navbar.bg-dark {
-
-	box-shadow: none;
-}
-
-.card-title {
-
-	color: #212121;	
-}
-
-.MainBg .card-title {
-
-	color: #fff;
-}
-
-.MainBg h4 {
-
-	color: #93e0e3;
 }
 
 .Fixed {
@@ -62,6 +37,7 @@
 }
 
 .text-info {
+
 	color: #00bcd4;
 }
 
