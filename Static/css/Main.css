@@ -91,3 +91,11 @@ footer {
 		font-size: 62px;
 	}
 }
+
+@media (max-width: 576px) {
+
+	.MainTitle {
+
+		font-size: 40px;
+	}
+}
