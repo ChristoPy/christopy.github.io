@@ -45,3 +45,57 @@ a {
   color: inherit;
 }
 
+
+
+main {
+  padding: 20px;
+  text-align: center;
+  max-width: 420px;
+  margin: auto;
+}
+
+.informations {
+  margin-top: 20px;
+  margin-bottom: 61px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.social-links {
+  margin-bottom: 124px;
+}
+
+.social-links ul,
+.social-links ul li a {
+  display: flex;
+}
+
+.social-links ul li {
+  flex: 1;
+}
+
+
+.social-icon {
+  margin-right: 10px;
+}
+
+button.call {
+  background: #3C9EE4;
+  color: #fff;
+  padding: .8em 2em;
+  border-radius: 2em;
+  font-size: 20px;
+}
