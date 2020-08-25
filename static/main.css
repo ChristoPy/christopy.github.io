@@ -9,18 +9,24 @@
   transition: .3s ease-out;
 }
 
-html {
-  font-size: 100%;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 1.25;
   min-height: 100vh;
   color: #313131;
 }
 
+body, h1 {
+  font-size-adjust: 0.5;
+}
+
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 ul {
@@ -48,34 +54,25 @@ a {
 
 
 main {
-  padding: 20px;
+  padding: 1em;
   text-align: center;
-  max-width: 420px;
+  max-width: 30em;
   margin: auto;
 }
 
 .informations {
-  margin-top: 20px;
-  margin-bottom: 61px;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .profile-picture {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-p {
-  font-size: 20px;
+  margin-bottom: 1em;
+  width: 10em;
 }
 
 .social-links {
-  margin-bottom: 124px;
+  margin-bottom: 4em;
 }
 
 .social-links ul,
@@ -87,15 +84,39 @@ p {
   flex: 1;
 }
 
+.social-links ul li a {
+  width: fit-content;
+  margin: auto;
+}
+
 
 .social-icon {
-  margin-right: 10px;
+  margin-right: .5em;
 }
 
 button.call {
   background: #3C9EE4;
   color: #fff;
-  padding: .8em 2em;
+  padding: .5em 1.5em;
   border-radius: 2em;
-  font-size: 20px;
+  font-size: 1.2em;
+}
+
+
+
+@media (min-width: 43.75em) {
+  body {
+    line-height: 1.375;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125;
+  }
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05;
+  }
 }
